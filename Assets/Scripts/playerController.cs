@@ -5,8 +5,11 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     public float horizontalInput;
-    public float speed;
+    public float speed = 2.0f;
     public float xRange = 10.0f;
+
+    public GameObject projectilePrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,5 +31,11 @@ public class playerController : MonoBehaviour
 
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
+
+        if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.X))
+        {
+            //Shoot object from player
+            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+        }
     }
 }
