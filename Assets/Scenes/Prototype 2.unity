@@ -224,11 +224,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.39582014
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.31
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: 2af1fa464b69e4c4cb1a408373c7d971, type: 3}
       propertyPath: m_LocalPosition.z
@@ -474,7 +474,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -682,7 +682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 846687951074401043, guid: 644e6a49e0ed760419441ff0841a603e, type: 3}
+  - {fileID: 8830954016717957185, guid: 0b44c9bc155c0714584f8c9585801395, type: 3}
+  - {fileID: 1353495821596485510, guid: bf6986564de94814da8d7bb5e6ac0da6, type: 3}
+  - {fileID: 4850342311522517002, guid: a75af92f743df5f43917d88caea91229, type: 3}
