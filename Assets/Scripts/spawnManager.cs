@@ -8,7 +8,7 @@ public class spawnManager : MonoBehaviour
     private float spawnRangeX = 20.0f;
     private float spawnRangeZ = 20.0f;
     private float startDelay = 2;
-    private float spawnInterval = 0.001f;
+    private float spawnInterval = 1.0f;
     // public int animalIndex;
     // Start is called before the first frame update
     void Start()
